@@ -184,7 +184,6 @@ nav .menu a{
     width:100%;
     max-width:1360px;
     margin:0 auto;
-    border:2px solid chocolate;
     box-sizing: border-box;
 }
 #about .about-container .about-info{
@@ -203,6 +202,11 @@ nav .menu a{
     gap:16px;
     text-align: center;
     width: 250px;
+    transition: all 0.5s;
+}
+.info-card:hover{
+    box-shadow: 0px 5px 30px 0 #00000090;
+
 }
 
 .info-card .img1{
@@ -261,6 +265,7 @@ nav .menu a{
     text-align: center;
     font-size: 48px;
     padding-top:44px;
+    margin-bottom: 13px;
     font-weight: 1200px;
 }
 .section-heading p{
@@ -433,4 +438,7 @@ nav .menu a{
     height:1px;
     background-color: #e5e7eb38;
     margin-top: 80px;
+}
+.fa-regular{
+    margin-right:8px;
 }
