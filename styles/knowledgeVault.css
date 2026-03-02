@@ -184,11 +184,12 @@ nav .menu a{
     width:100%;
     max-width:1360px;
     margin:0 auto;
+    border:2px solid chocolate;
+    box-sizing: border-box;
 }
 #about .about-container .about-info{
     display: flex;
-    gap: 24px;
-    justify-content: space-between;
+    justify-content: space-around;
     width:100%;
     margin-top: 44px;
 }
@@ -196,59 +197,63 @@ nav .menu a{
     box-shadow: 0px 6px 50px 0 #00000027;
     display:flex;
     flex-direction: column;
-    padding:24px 50px;
+    padding:24px;
     align-items: center;
     justify-content: center;
     gap:16px;
     text-align: center;
-    width: 322px;
+    width: 250px;
 }
 
 .info-card .img1{
-    width:60px;
+    width:48px;
+    height:48px;
     background-color: #F95555;
-    padding: 14px;
+    padding: 8px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .info-card .img2{
-    width:60px;
+    width:48px;
+    height:48px;
     background-color: #F95555;
-    padding: 14px;
+    padding: 8px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .info-card .img3{
-    width:60px;
+    width:48px;
+    height:48px;
     background-color: #F95555;
-    padding: 14px;
+    padding: 8px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .info-card .img4{
-    width:60px;
+   width:48px;
+    height:48px;
     background-color: #F95555;
-    padding: 14px;
+    padding: 8px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .info-card h6{
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 600;
-    width:274px;
+    /* width:274px; */
 }
 .info-card p{
-    font-size: 16px;
+    font-size: 14px;
     color: #627382;
-    width: 274px;
+    /* width: 274px; */
 
 }
 .section-heading h3{
@@ -265,38 +270,44 @@ nav .menu a{
     font-weight:400px;
 }
 #solution{
-    padding:120px 120px;
-    width:1600px;
+    padding:120px 10px;
+    max-width:1600px;
     display: flex;
     align-items: center;
     gap:60px;
     margin: 0 auto;
+}
+.feature{
+    display:flex;
+    flex-direction: column;
 }
 .img5{
     width: 600px;
     padding-right: 60px;
 }
 .p1{
+    width:100%;
     font-size: 16px;
     font-weight: 400;
     padding-bottom:16px;
     color: #469165;
 }
 .feature h3{
+    width:100%;
     font-size: 48px;
     font-weight: 1200px;
     color:#001931;
     text-align:left;
     padding-bottom:16px;
-    width: 700px;
 }
 .p2{
+    width:100%;
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    width:700px;
 }
 .list{
+    width:100%;
     padding-top: 40px;
     display: flex;
     gap:16px;
@@ -318,14 +329,17 @@ nav .menu a{
     align-items: center;
 }
 #app-section{
-    max-width: 1600;
+    width:100%;
+    max-width: 1600px;
     padding:0px 120px 120px 120px;
+    margin:0 auto;
 }
 .app{
     max-width: 1360px;
     background-color: #F7F6F2;
     padding:80px 40px;
     text-align: center;
+    margin:0 auto;
 }
 .app h6{
     font-size: 40px;
@@ -334,10 +348,10 @@ nav .menu a{
     padding-bottom: 16px;
 }
 .app p{
+    
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width:1280px;
     color:#627382;
     padding-bottom: 24px;
 }
@@ -361,7 +375,8 @@ nav .menu a{
     padding-bottom: 16px;
 }
 .footer-container{
-    width:1600px;
+    width:100%;
+    max-width:1600px;
     padding:120px 120px 30px 120px;
     background-color: #001931;
     position: relative;
